@@ -1,0 +1,82 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://images.pixexid.com/netflix-embodies-a-charismatic-movie-director-deeply-engrossed-in-the-array-of-t9qysmkg.webp?h=699&q=70");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+
+  .page-logo img {
+   text-align: center;
+    padding: 20px;
+    width: 400px;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-subtitle {
+    color: rgb(0, 0, 0);
+    margin-top: 5px;
+
+  }
+  
+  .page-logo {
+    
+  }
+  
+  .play-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  #listaFilmes img {
+    margin: 10px;
+    max-height: 250px;
+  }
+  
+  #listaFilmes img:hover{
+    transform: scale(1.2);
+  }
+  
+  .form-wrapper {
+    margin: 0 0 15px;
+  }
+  
+  .form-wrapper input {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+  }
+  
+  #mensagemDeErro{
+    color: red;
+  }
+  
+  .form-wrapper button {
+    border: 0;
+    color: #ffffff;
+    background: #7005a1;
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .form-wrapper button:hover {
+    opacity: 0.8;
+  }
+  
+  footer {
+    background-size: cover;
+  }
+  
